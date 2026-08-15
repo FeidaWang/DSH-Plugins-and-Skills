@@ -16,7 +16,14 @@ The workflows distinguish conditional guarantees from universal guarantees and r
 
 ## Use
 
-Load `dsh-spatiotemporal-audit/` as a local Codex plugin, or reuse any skill from its `skills/` directory independently.
+Add the repository as a Codex marketplace, then install the plugin:
+
+```bash
+codex plugin marketplace add FeidaWang/DSH-Plugins-and-Skills
+codex plugin add dsh-spatiotemporal-audit@dsh-plugins-and-skills
+```
+
+The plugin lives at `plugins/dsh-spatiotemporal-audit/`. Its skills can also be reused independently from the nested `skills/` directory.
 
 ## License
 

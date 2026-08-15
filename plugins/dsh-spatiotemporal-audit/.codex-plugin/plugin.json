@@ -8,6 +8,7 @@
   },
   "homepage": "https://github.com/FeidaWang/DSH-Plugins-and-Skills",
   "repository": "https://github.com/FeidaWang/DSH-Plugins-and-Skills",
+  "license": "Apache-2.0",
   "keywords": [
     "cordis",
     "dsh",
