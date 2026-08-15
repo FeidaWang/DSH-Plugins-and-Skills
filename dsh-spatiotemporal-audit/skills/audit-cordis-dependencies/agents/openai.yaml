@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Cordis Dependencies"
+  short_description: "Audit dependency, provider, and realm topology"
+  default_prompt: "Use $audit-cordis-dependencies to map this Cordis dependency graph and verify lifecycle ordering."

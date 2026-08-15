@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Cordis Dynamic Change"
+  short_description: "Verify reload and update transaction safety"
+  default_prompt: "Use $verify-cordis-dynamic-change to test this Cordis reload or update path as a lifecycle transaction."

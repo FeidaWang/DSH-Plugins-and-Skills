@@ -1,0 +1,37 @@
+{
+  "name": "dsh-spatiotemporal-audit",
+  "version": "0.1.0",
+  "description": "Evidence-driven audits for Cordis effects, dependency realms, and dynamic lifecycle transactions.",
+  "author": {
+    "name": "FeidaWang",
+    "url": "https://github.com/FeidaWang"
+  },
+  "homepage": "https://github.com/FeidaWang/DSH-Plugins-and-Skills",
+  "repository": "https://github.com/FeidaWang/DSH-Plugins-and-Skills",
+  "keywords": [
+    "cordis",
+    "dsh",
+    "lifecycle",
+    "hot-module-replacement",
+    "software-audit"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DSH Spatiotemporal Audit",
+    "shortDescription": "Audit Cordis lifecycle and reload guarantees.",
+    "longDescription": "Turn Cordis lifecycle claims into condition-aware source audits, dependency graphs, and deterministic failure-injection tests.",
+    "developerName": "FeidaWang",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/FeidaWang/DSH-Plugins-and-Skills",
+    "defaultPrompt": [
+      "Audit this Cordis component's cleanup boundaries.",
+      "Map this plugin graph's providers and realms.",
+      "Verify this reload path as a lifecycle transaction."
+    ]
+  }
+}

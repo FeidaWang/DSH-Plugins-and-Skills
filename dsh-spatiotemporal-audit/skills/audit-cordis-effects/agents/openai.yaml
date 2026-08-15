@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Cordis Effects"
+  short_description: "Audit effect ownership, boundaries, and rollback"
+  default_prompt: "Use $audit-cordis-effects to audit Cordis resource ownership and cleanup guarantees."
